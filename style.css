@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.lateral-space {
+    width: 90%;
+    margin: auto;
+}
+
+.conteiner-topo {
+    background: url(images/background.png) no-repeat center;
+    background-size: cover;
+    color: white;
+    padding-top: 20px;
+}
+
+header {
+    height: 50px;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+}
+
+.nft-span {
+    color: #FF5B50;
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+header li a {
+    padding: 5px;
+    font-size: 18px;
+}
+
+header li a:hover {
+    color: #FF5B50;
+    transition: .2s;
+}
+
+.my-wallet {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 50px;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.my-wallet:hover {
+    background-color: #d7d7d7;
+    transition: .2s;
+}
+/*FIM HEADER*******************************/
+
+.initial-content {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    row-gap: 50px;
+}
+
+.artists {
+    width: 370px;
+    font-size: 18px;
+    height: 250px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+
+.artists p:first-child {
+    line-height: 25px;
+}
+
+.group-avatars-conteiner {
+    display: flex;
+    align-items: flex-end;
+}
+
+.true-art {
+    width: 600px;
+    font-size: 37px;
+}
+
+.gallery {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.gallery img {
+    width: 280px;
+    height: 195px;
+    border: 1px solid white;
+}
+
+.cards-nfts p {
+    text-align: center;
+    display: none;
+    padding: 40px 0 50px 0;
+}
+
+.cards-nfts a {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.cards-nfts a:hover {
+    color: #FF5B50;
+    transition: .2s;
+}
+
+/*FIM CONTEINER TOPO***************************/
+
+main {
+    background-color: #0e0e0e;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.informations {
+    display: flex;
+    
+}
+
+.aside {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    margin-bottom: 4px;
+    padding-top: 90px;
+    gap: 80px;
+    font-size: 50px;
+}
+
+.numbers {
+    width: 130px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.numbers span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #5A5757;
+}
+
+.content-informations {
+    width: 80%;
+    padding-top: 80px;
+}
+
+.paragraphs-informations {
+    display: flex;
+    font-size: 18px;
+    padding: 0 100px;
+    gap: 50px;
+}
+
+.paragraphs-informations > div p {
+    margin-bottom: 30px;
+}
+
+.paragraphs-informations > div a {
+    text-decoration: underline;
+}
+
+.paragraphs-informations > div a:hover {
+    color: #FF5B50;
+    transition: .2s;
+}
+
+.img-informations img {
+    width: 100%;
+    height: 240px;
+    margin-top: 60px;
+}
+/*FIM INFORMATIONS*******************************/
+
+.popular-of-week {
+    font-size: 35px;
+    padding: 100px 0;
+}
+
+.astronauta-1-2, .astronauta-3-4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.vertical-line {
+    height: 300px;
+    border: 1px solid #5A5757;
+    margin: 0 10px;
+}
+
+.title-astronaut, .name-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-cards h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.name-price p {
+    color: #5A5757;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name-price span {
+    color: #FF5B50;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*FIM MAIN-3*****************************/
+
+.best-artists {
+    text-align: center;
+    font-size: 50px;
+    margin: 100px 0;
+}
+
+.conteiner-artists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.artists-cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #252525;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#artist-orange {
+    background-color: #FF5B50;
+    color: white;
+}
+
+.artists-cards img {
+    width: 85px;
+}
+
+.artists-cards p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.artists-cards div:nth-child(2) p:first-child {
+    padding-bottom: 10px;
+}
+
+.more-artists {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.more-artists a {
+    display: flex;
+}
+
+.more-artists p {
+    margin-right: 12px;
+}
+
+.more-artists a:hover {
+    color: #FF5B50;
+    transition: .2s;
+}
+/*FIM MAIN-4**********************************/
+
+footer {
+    background-color: #252525;
+}
+
+.footer-topo {
+    padding: 80px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #5A5757;
+}
+
+.footer-topo img {
+    background-color: #FF5B50;
+    padding: 20px;
+}
+
+.middle-footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #5A5757;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-right: 1px solid #5A5757;
+    padding: 50px 60px 50px 0;
+}
+
+.form-area h3 {
+    font-size: 37px;
+    font-weight: 500;
+    width: 350px;
+}
+
+form {
+    display: flex;
+}
+
+input {
+    background-color: black;
+    color: #5A5757;
+    width: 200px;
+    padding: 15px;
+    border: none;
+}
+
+input:focus {
+    outline: 0;
+}
+
+button {
+    width: 120px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    box-shadow: none;
+}
+
+button:hover {
+    background-color: #d7d7d7;
+    transition: .1s;
+}
+
+.navigation-footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    padding-left: 100px;
+    gap: 100px;
+    font-size: 18px;
+}
+
+.navigation-footer div:nth-child(3) {
+
+    margin-left: 5px;
+}
+
+.navigation-footer p {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.navigation-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.navigation-footer li {
+    width: 100px;
+}
+
+.navigation-footer a {
+    color: #5A5757;
+    font-weight: 500;
+    padding: 5px 5px 5px 0;
+}
+
+.navigation-footer a:hover {
+    padding-left: 2px;
+    transition: .1s;
+}
+
+.bottom-footer > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding: 80px 0 50px 0;
+}
+
+.icons-footer a {
+    padding: 10px;
+}
+
+
+
+@media (max-width:1150px) {
+    .middle-footer {
+        flex-wrap: wrap;
+    }    
+
+    .form-area {
+        
+        border: none;
+    }
+
+    .form-area h3 {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .navigation-footer {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .initial-content {
+        flex-wrap: wrap;
+    }
+
+    .true-art > h2 {
+        font-size: 37px;
+    }
+
+    .true-art {
+        order: 0;
+        max-width: 500px;
+    }
+
+    .artists {
+        order: 1;
+    }
+
+    #box-img {
+        max-width: 150px;
+        width: 100%;
+    }
+
+    #explore-art {
+        width: 100%;
+    }
+}
+
+@media (max-width: 818px) {
+
+    .informations {
+        display: block;
+    }
+
+    .aside {
+        width: auto;
+        flex-direction: row;
+        justify-content: center;
+        border-right: none;
+        padding-bottom: 50px;
+        font-size: 50px;
+        gap: 50px;
+    }
+
+    .content-informations {
+        width: 100%;
+    }
+
+    .paragraphs-informations {
+        flex-direction: column;
+    }
+
+    .paragraphs-informations div {
+        width: 100%;
+    }
+
+    .cards-nfts p {
+        display: block;
+    }
+
+    .gallery img:nth-child(7), .gallery img:nth-child(8) {
+        display: none;
+    }
+
+    #img-1, #img-2, #img-3, #img-4 {
+        margin: 0 auto;
+    }
+
+    .astronauta-1-2 {
+        margin-bottom: 30px;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .lateral-space {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .aside {
+        gap: 10px;
+        font-size: 30px;
+    }
+
+    .paragraphs-informations {
+        padding: 0 20px;
+    }
+
+    .img-informations img {
+        height: 180px;
+    }
+
+    #img-1 > a > img, #img-2 > a > img, #img-3 > a > img, #img-4 > a > img  {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .form-area h3 {
+        font-size: 28px;
+    }
+}
