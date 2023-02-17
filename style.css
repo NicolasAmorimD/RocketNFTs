@@ -28,6 +28,9 @@ a {
 
 header {
     height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -39,22 +42,20 @@ header {
     color: #FF5B50;
 }
 
-header nav {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header button {
+    width: auto;
+    padding: 5px 10px;
 }
 
 header ul {
     display: flex;
-    justify-content: left;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 25px;
 }
 
 header li a {
-    padding: 5px;
+    padding: 5px 10px;
     font-size: 18px;
 }
 
@@ -77,6 +78,10 @@ header li a:hover {
 .my-wallet:hover {
     background-color: #d7d7d7;
     transition: .2s;
+}
+
+#btn-mobile {
+    display: none;
 }
 /*FIM HEADER*******************************/
 
@@ -497,6 +502,37 @@ button:hover {
 }
 
 @media (max-width: 818px) {
+
+    #btn-mobile {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background-color: black;
+        height: calc(100vh - 70px) ;
+        z-index: 1000;
+    }
+
+    #menu li {
+        width: fit-content;
+        margin: 30px auto;
+    }
+
+    #menu a {
+        padding: 20px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    #nav.active #menu {
+        display: block;
+       
+    }
 
     .informations {
         display: block;
